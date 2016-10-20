@@ -1,0 +1,13 @@
+=section()
+	overflow: hidden
+	height: auto
+	width: 100%
+
+=clearfix()
+	&:before,
+	&:after
+		content: ""
+		display: table
+
+	&:after
+		clear: both
